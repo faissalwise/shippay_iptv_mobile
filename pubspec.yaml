@@ -1,0 +1,64 @@
+name: fastotvlite
+author: Alexandr Topilski <support@fastogt.com>
+description: FastoTV Lite IPTV player.
+homepage: https://fastotv.com
+version: 1.12.1+16
+
+
+module:
+  androidX: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fastotv_dart:
+    git:
+      url: https://github.com/fastogt/fastotv_dart.git
+      ref: master
+  video_player:
+    git:
+      url: https://github.com/fastogt/video_player.git
+      ref: master
+  fastotv_common:
+    git:
+      url: https://github.com/fastogt/flutter_common.git
+      ref: master
+  flutter_fastotv_common:
+    git:
+      url: https://github.com/fastogt/flutter_fastotv_common.git
+      ref: master
+  fastotv_device_info:
+    git:
+      url: https://github.com/fastogt/fastotv_device_info.git
+      ref: master
+  cupertino_icons: ^0.1.3
+  flutter_speed_dial: ^1.2.5
+  unicorndial: ^1.1.5
+  shared_preferences: ^0.5.6+2
+  file_picker: ^1.6.2
+  persist_theme:
+    git:
+      url: git://github.com/fastogt/plugins.git
+      ref: master
+      path: packages/persist_theme
+  event_bus: ^1.1.1
+  numberpicker: ^1.1.0
+  get_it: ^3.1.0
+  rxdart: ^0.23.1
+  double_back_to_close_app: ^0.1.2
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - install/assets/logo.png
+    - install/assets/unknown_channel.png
+    - install/assets/unknown_preview.png
+    - install/lang/en.json
+    - install/lang/ru.json
+    - install/lang/fr.json
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: install/assets/Nunito.ttf
