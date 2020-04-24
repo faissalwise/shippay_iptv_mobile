@@ -28,3 +28,4 @@ ios/Podfile.lock
 ios/Runner.xcworkspace/xcshareddata/
 ios/File.swift
 ios/Runner-Bridging-Header.h
+/.dart_tool/package_config.json
