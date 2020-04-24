@@ -13,23 +13,23 @@ dependencies:
     sdk: flutter
   fastotv_dart:
     git:
-      url: https://github.com/faissalwise/shippay_iptv_dart.git
+      url: https://github.com/fastogt/fastotv_dart.git
       ref: master
   video_player:
     git:
-      url: https://github.com/faissalwise/video_player.git
+      url: https://github.com/fastogt/video_player.git
       ref: master
   fastotv_common:
     git:
-      url: https://github.com/faissalwise/flutter_common.git
+      url: https://github.com/fastogt/flutter_common.git
       ref: master
   flutter_fastotv_common:
     git:
-      url: https://github.com/faissalwise/flutter_shippay_iptv_common.git
+      url: https://github.com/fastogt/flutter_fastotv_common.git
       ref: master
   fastotv_device_info:
     git:
-      url: https://github.com/faissalwise/shippay_iptv_device.git
+      url: https://github.com/fastogt/fastotv_device_info.git
       ref: master
   cupertino_icons: ^0.1.3
   flutter_speed_dial: ^1.2.5
@@ -38,7 +38,7 @@ dependencies:
   file_picker: ^1.6.2
   persist_theme:
     git:
-      url: git://github.com/faissalwise/plugins.git
+      url: git://github.com/fastogt/plugins.git
       ref: master
       path: packages/persist_theme
   event_bus: ^1.1.1
